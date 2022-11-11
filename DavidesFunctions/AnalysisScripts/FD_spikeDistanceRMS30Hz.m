@@ -185,6 +185,7 @@ save('FD_RMS300Hz.mat','RMSyoungALL',...
 
 
 %% The next thing is Linear Discriminant Analysis to classify these outputs 
+% First split the data set before applying PCA to avoid correlations 
 %  The outputs above need to be processed e.g. change in and PCA or
 % multidimensional scaling the the classification can occur on the
 % processed (i.e. transformed) matrix 
